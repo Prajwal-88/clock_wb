@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="./script.js" defer></script>
+</head>
+<body class="bg-black min-h-screen grid place-items-center">
+    <div class="clock border-[1.5rem] border-white  w-[35rem] h-[35rem] p-3 relative rounded-full">
+        <div class="clock-face relative left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
+            <div class="hand-hour w-[32%] h-[6px] bg-white top-[50%] left-[17.8%] absolute rotate-[90deg] origin-[100%] transition-all  duration-[0.05s] transition-[cubic-bezier(0.1, 2.7, 0.58, 1)]"></div>
+            <div class="w-3 h-3 rounded-full bg-white absolute top-[70%] left-[50%] translate-x-[-50%] translate-y-[-29%]"></div>
+            <div class="hand-min w-[40%] h-[6px] bg-white top-[50%] left-[10%] absolute rotate-[90deg] origin-[100%] transition-all  duration-[0.05s] transition-[cubic-bezier(0.1, 2.7, 0.58, 1)]"></div>
+            <div class="hand-sec w-[50%] h-[6px] bg-white top-[50%] absolute rotate-[90deg] origin-[100%] transition-all  duration-[0.05s] transition-[cubic-bezier(0.1, 2.7, 0.58, 1)]"></div>
+        </div>
+    </div>
+</body>
+</html>
